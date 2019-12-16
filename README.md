@@ -22,7 +22,7 @@ pod 'DMSafeKit'
 
 ## Author
 
-liumenghua, liumenghua@baidu.com
+liumenghua, return_nil@163.com
 
 ## License
 
