@@ -15,7 +15,6 @@
 #import "NSDictionary+Safety.h"
 #import "NSSet+Safety.h"
 #import "NSString+Safety.h"
-#import "NSObject+Swizzle.h"
 
 FOUNDATION_EXPORT double DMSafeKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char DMSafeKitVersionString[];
