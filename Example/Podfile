@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DMSafeKit_Example' do
+  pod 'DMSafeKit', :path => '../'
+
+  target 'DMSafeKit_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
