@@ -1,0 +1,6 @@
+framework module DMSafeKit {
+  umbrella header "DMSafeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
