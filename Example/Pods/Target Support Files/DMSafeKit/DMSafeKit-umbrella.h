@@ -13,6 +13,7 @@
 #import "DMSafeKit.h"
 #import "NSArray+Safety.h"
 #import "NSDictionary+Safety.h"
+#import "NSObject+Swizzle.h"
 #import "NSSet+Safety.h"
 #import "NSString+Safety.h"
 

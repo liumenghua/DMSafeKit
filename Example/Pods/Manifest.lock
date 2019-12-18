@@ -1,5 +1,5 @@
 PODS:
-  - DMSafeKit (0.1.0)
+  - DMSafeKit (0.1.3)
   - Kiwi (3.0.0)
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DMSafeKit: a196f22f2484dde3f06278ff0dcac265ee4527ef
+  DMSafeKit: 7a7faa04260890dde48f265b073191afa6947c11
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
 
 PODFILE CHECKSUM: 5444f41689aff688b65f3c852640c39638e9e4a0
