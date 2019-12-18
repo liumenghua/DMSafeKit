@@ -13,7 +13,7 @@
 
 ## Example
 
-```
+```objc
 id obj = nil;
 id value = nil;
 NSDictionary *dict = @{@"anObject" : obj,
