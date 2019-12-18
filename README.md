@@ -5,11 +5,32 @@
 [![License](https://img.shields.io/cocoapods/l/DMSafeKit.svg?style=flat)](https://cocoapods.org/pods/DMSafeKit)
 [![Platform](https://img.shields.io/cocoapods/p/DMSafeKit.svg?style=flat)](https://cocoapods.org/pods/DMSafeKit)
 
+利用runtim method swizzle 对Objective-C中常用集合等类型进行crash防护，目前支持：
+- NSArray/NSMutableArray
+- NSDictionary/NSMutableArray
+- NSSet/NSMutableSet
+- NSString/NSMutableString
+
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+```
+id obj = nil;
+id value = nil;
+NSDictionary *dict = @{@"anObject" : obj,
+                       @"helloString" : @"Hello, World!",
+                       @"magicNumber" : @42,
+                       @"aValue" : value};
+NSLog(@"dict:%@", dict);
+    
+/*
+dict:{
+     aValue = "<null>";
+     anObject = "<null>";
+     helloString = "Hello, World!";
+     magicNumber = 42;
+}
+*/
+```
 
 ## Installation
 
